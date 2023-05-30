@@ -1,0 +1,226 @@
+
+
+:root{
+    background-color: rgb(173, 123, 123);
+    
+}
+body {
+width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 30%;
+    padding right: 50%;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+li{
+    display: inline;
+    background-color: rgb(112, 99, 99);
+}
+ul{
+    background-color: rgb(112, 99, 99);
+    border: 3px;
+    border-color: rgb(70, 93, 114) solid ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    border: 0.0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    padding:70px;
+    font-size: 16px;
+    color: black;
+}
+li a:hover {
+    background-color: #f1e253;
+    transform:scale(0.6);
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    border: 3px rgb(94, 92, 92) solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.hero {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    text-border: black solid;
+    background-image: url(9057b6fa2816639.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: 50%  50%;
+    background-size: 75%;
+    width: 1000px%;
+    height: 500px;
+    border: 0.0px;
+    margin: 0.0px;
+  }
+  .container{
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 300px;
+    color: #f1e253;
+  }
+.menu img{
+    max-width: 95%;
+    height: auto;
+    padding: 10px;
+}
+.menu h4{
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+    color: #f1e253;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu p{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+.menu a{
+    display: grid;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1e253;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    padding-top:0.0%
+}
+.menu a.pointer{
+    cursor: pointer;
+}
+.menu a:hover{
+    transform: scale(1.5);
+}
+.menu{
+    background-color: rgb(112, 99, 99);
+    max-width: 30%;
+    height: 620px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+.booking{
+    background-color: rgb(112, 99, 99);
+    max-width: 30%;
+    height: 620px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+.booking img{
+    max-width: 95%;
+    height: auto;
+    padding: 10px;
+}
+.booking h4{
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+    color: #f1e253;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.booking p{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+.booking a{
+    display: grid;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1e253;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    padding-top:0.0%
+}
+.booking a.pointer{
+    cursor: pointer;
+}
+.booking a:hover{
+    transform: scale(1.5);
+}
+.open-hours{
+    background-color: rgb(112, 99, 99);
+    max-width: 30%;
+    height: 620px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+.open-hours img{
+    max-width: 95%;
+    height: auto;
+    padding: 10px;
+}
+.open-hours h4{
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+    color: #f1e253;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.open-hours p{
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 40px;
+padding-bottom: 50px;
+}
+hr{
+    border: 1px solid rgb(112, 99, 99);
+    width: 50%;
+    align-items: right;
+    padding-bottom: 0.0px;
+  }
+footer img{
+    height:auto;
+    width: 50px;
+    padding-top: 0.0px;
+    padding-left: 50%;
+    
+
+}
+footer p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(85, 75, 75) ;
+    text-align: left;
+   padding-right: 60%;
+    padding-top: 30px;
+    margin-top: 0.0px;
+    position: static;
+}
+.nice-footer{
+    display: flex;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 50%;
+    
+}
+
